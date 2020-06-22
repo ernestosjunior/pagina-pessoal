@@ -1,3 +1,11 @@
 header {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    
+    text-align: center;
+    display: block;
+    font-family: 'Roboto', sans-serif;
 }

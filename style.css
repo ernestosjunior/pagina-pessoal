@@ -5,7 +5,7 @@ header {
     text-align: center;
     display: block;
     font-size: 30px;
-    padding: 20px;
+    padding: 10px;
     
 }
 
@@ -25,3 +25,16 @@ nav {
     
 }
 
+#banner {
+    display: block;
+    margin-left: 70px;
+    margin-top: 50px;
+    width: 1200px;
+    height: 500px;
+}
+
+#autor {
+    text-align: center;
+    margin: 100px;
+   
+}

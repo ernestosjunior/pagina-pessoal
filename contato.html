@@ -5,13 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="popupcontato">
+        <h3>Entre em Contato</h3>
         <div id="formcontato">
-            
-        
-        </div>
+    
+            <form id="fcontato" action="#" method="POST">
+            <div class="row">
+                <label class="required" for="name">Seu nome:</label><br />
+                <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            </div>
+            <div class="row">
+                <label class="required" for="email">Seu email:</label><br />
+                <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+            </div>
+            <div class="row">
+                <label class="required" for="message">Sua mensagem:</label><br />
+                <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+            </div>
+                
+                <input id="botaoenvio" type="submit" value="Enviar" />
+            </form>
+                    </div>
     </div>
 </body>
 </html>

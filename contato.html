@@ -8,26 +8,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="popupcontato">
-        <div id="formcontato">
-    
-            <form id="fcontato" action="#" method="POST">
-            <div class="row">
-                <label class="required" for="name">Seu nome:</label><br />
-                <input id="nome" class="input" name="name" type="text" value="" size="30" /><br />
-            </div>
-            <div class="row">
-                <label class="required" for="email">Seu email:</label><br />
-                <input id="email" class="input" name="email" type="text" value="" size="30"  /><br />
-            </div>
-            <div class="row">
-                <label class="required" for="message">Sua mensagem:</label><br />
-                <textarea id="mensagem" class="input" name="message" rows="7" cols="30"></textarea><br />
-            </div>
-                
-                <input id="botaoenvio" type="submit" value="Enviar" />
-            </form>
-                    </div>
-    </div>
+    <div class="contato">  
+        <form action="#" class="formulariocontato" method="post" tabindex="1">  
+           <input type="text" class="contatoinput" name="nome" placeholder="Nome" required />  
+           <input type="email" class="contatoinput" name="email" placeholder="Email" required />  
+           <input type="tel" class="contatoinput" name="tel" placeholder="Telefone" />  
+           <textarea class="areatexto" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>  
+           <button type="submit" class="botaoenvio">Enviar</button>  
+        </form>  
+      </div>  
 </body>
 </html>
